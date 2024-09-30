@@ -1,62 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 Semantic Code Example</title>
-    <!--css here-->
-</head>
-<body>
-    <header>
-        <h1>Proper Use of html5 Semantic Markup</h1>
-    </header>
-    <!---->
-    <nav>
-        <h2 class="sr-only">main navigation</h2>
-        <ul>
-            <li><a href='#latin-dummy'>LINK 1</a></li>
-            <li><a href='#'>LINK 2</a></li>
-            <li><a href='#'>LINK 3</a></li>
-        </ul>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML5 Semantic Code Example</title>
+        <link href="../css/semantic-design.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <!-- main heading of page - only use h1 once per page -->
+        <header>
+            <h1>Proper Use of html5 Semantic Markup WOOOOOT!</h1>
+        </header>
+        <!-- main navigation links to relative internal links only (once per page) -->
+        <nav>
+            <h2 class="sr-only">main navigation</h2>
+            <ul>
+                <li><a href="#latin-dummy">Lorem Ipsum</a></li>
+                <li><a href="#hipster-ipsum">Hipster Ipsum</a></li>
+                <li><a href="#">Dummy Link</a></li>
+            </ul>
+        </nav>
+          <!-- main content of the page -->
+  <main>
+    <!-- grouping content together -->
+    <section id="latin-dummy">
+        <h2>latin "dummy" text</h2>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis, nibh a fringilla pharetra, mi nunc pulvinar elit, vel gravida enim augue sit amet orci. Vestibulum interdum nulla at nisi iaculis, ut euismod ante fermentum. Donec at consectetur felis, non gravida velit. Morbi at elit nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis lacus ante, in mattis est mattis quis. Quisque lectus augue, rhoncus nec porta eu, eleifend id mi. Cras a scelerisque dui, nec fermentum arcu. Cras in nulla mi. Duis eget elit id nunc eleifend ornare at ut nisl. Morbi cursus elit tellus, vitae convallis felis cursus eget.
+        </p>
+        <p>
+        Praesent risus orci, bibendum ut lectus vel, suscipit sollicitudin odio. Aenean laoreet tincidunt quam vehicula dignissim. Mauris vitae enim iaculis metus facilisis condimentum. Quisque felis libero, ultricies at magna in, pharetra blandit nunc. Donec accumsan diam nec mauris viverra elementum. Nam a felis tellus. Vestibulum quis dictum quam. Suspendisse ornare ultrices auctor. In sollicitudin facilisis neque, eu ultrices ipsum posuere sed. Proin vulputate convallis erat eu porttitor. Pellentesque sapien arcu, lacinia nec ultricies non, consequat id turpis.
+        </p>
+        <p>
+        Donec tincidunt tempor eros, in egestas dolor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam tellus ipsum, faucibus sed nunc quis, pulvinar semper lacus. Fusce eros sapien, ornare a metus a, ultricies imperdiet velit. Praesent id libero elementum, rutrum nunc venenatis, semper risus. Duis purus libero, viverra eget magna sit amet, tempor tincidunt nulla. Sed quis ligula nec nulla blandit sodales. Praesent nec imperdiet risus, et bibendum enim. Vestibulum iaculis neque non erat maximus iaculis. Duis eget sapien ac ligula venenatis ullamcorper. Curabitur quis lorem id ex rutrum pretium. Morbi facilisis placerat tortor vel auctor. Fusce interdum eleifend purus at vestibulum. Donec molestie malesuada odio sed interdum. Suspendisse tellus ex, semper ac finibus ut, finibus in ex.
+        </p>
+        <p>
+        Duis orci sem, aliquet at leo ac, iaculis ullamcorper ligula. Fusce ut magna nec mi maximus dapibus. Sed pretium ante luctus erat pellentesque, eget rhoncus justo lacinia. Duis id efficitur erat. Maecenas venenatis sapien at nisi tristique ultrices. Fusce ornare lacus magna, nec suscipit augue dapibus eu. Fusce tempor, dolor at tempor consequat, elit sem blandit eros, sit amet lobortis augue enim sed arcu. Duis quis finibus purus. In sit amet risus venenatis, molestie purus sed, efficitur sapien. Cras id lacus orci. Nulla facilisi. Proin pharetra, sem sollicitudin convallis bibendum, turpis purus porttitor dui, pulvinar feugiat magna mauris vitae nunc. Ut sed est urna.
+        </p>
+        <p>
+        Ut luctus nisl nec vehicula finibus. Pellentesque congue nibh ac euismod varius. Nunc ac purus laoreet, aliquet mauris vitae, tincidunt purus. Pellentesque finibus libero ligula, sed consectetur felis aliquet et. In a tortor sapien. Donec vel lectus sed est bibendum auctor. Ut a mattis augue.      </p>
+        <!-- informational images -->
+      <figure>
+          <img src="http://placehold.it/300x300" alt="verbal description of image">
+          <figcaption>image title</figcaption>
+      </figure>
+      <!-- supplementary info  -->
+      <aside>
+          <h2>supplementary latin links</h2>
+          <ul>
+              <li><a href="#">how to learn latin</a></li>
+          </ul>
+      </aside>
+    </section>
+    <section id="hipster-ipsum">
+        <p>
+        I'm baby swag bodega boys readymade thundercats. IPhone fingerstache thundercats next level. Praxis banh mi kombucha actually man braid. Whatever gastropub aesthetic cornhole vibecession.
+        </p>
+        <p>
+        Af mukbang hashtag distillery banjo locavore grailed. Woke celiac retro chillwave chia williamsburg succulents literally swag food truck shabby chic YOLO cupping. Cliche health goth grailed, cronut vegan fanny pack jianbing. La croix meditation +1, knausgaard church-key tacos banh mi succulents twee activated charcoal neutra aesthetic bushwick photo booth. Bespoke truffaut skateboard man braid leggings sartorial 90's. Cupping marfa hashtag kombucha.
+        </p>
+        <p>
+        Ennui migas bespoke la croix truffaut scenester shaman pickled thundercats waistcoat celiac 3 wolf moon glossier sus organic. Mumblecore hammock listicle tofu pitchfork man braid, shabby chic hoodie locavore ennui biodiesel salvia YOLO. Art party umami fashion axe, celiac gastropub succulents jean shorts williamsburg kale chips adaptogen narwhal pug. Jawn health goth kitsch grailed mlkshk fixie marxism synth. Lumbersexual bespoke palo santo schlitz narwhal pour-over next level. Mustache occupy vinyl kombucha. Organic vaporware freegan, normcore meggings single-origin coffee bushwick.
+        </p>
+        <p>
+        Flannel fanny pack JOMO, you probably haven't heard of them hella cornhole fashion axe disrupt single-origin coffee affogato chartreuse intelligentsia hoodie live-edge selvage. Gentrify mustache palo santo JOMO, microdosing succulents gluten-free polaroid street art yr listicle. Mixtape sriracha cold-pressed sustainable biodiesel, helvetica bitters scenester deep v artisan bespoke cray pickled. Hammock hashtag green juice flexitarian hella photo booth. Fanny pack copper mug keytar glossier.
+        </p>
+        <p>
+        Direct trade keytar wolf, adaptogen wayfarers air plant leggings meggings tacos viral narwhal pabst tonx trust fund knausgaard. Pitchfork tumblr williamsburg, plaid viral leggings offal stumptown farm-to-table heirloom vape marxism. Lo-fi af shoreditch jianbing. Kombucha grailed banh mi truffaut. Bitters semiotics cray neutra subway tile viral raw denim. 8-bit narwhal mukbang, gentrify bicycle rights literally banjo solarpunk ethical health goth try-hard sustainable grailed mixtape.
+        </p>
+        <p>
+        Tilde farm-to-table marfa blog succulents af cred biodiesel XOXO +1 deep v. Poutine hammock authentic single-origin coffee everyday carry keytar tilde before they sold out meh bicycle rights 3 wolf moon. Offal YOLO distillery tumblr cold-pressed vexillologist. Pug praxis glossier tattooed cronut, everyday carry banh mi williamsburg listicle gochujang swag marxism. Big mood etsy cupping, cray iPhone readymade jianbing swag gorpcore. Tofu kale chips bitters shabby chic meh pour-over fam ascot four dollar toast subway tile echo park bespoke same microdosing meditation. Wolf yr authentic art party vibecession raclette.
+        </p>
+        <p>
+        Pabst synth organic kale chips whatever typewriter. Bicycle rights taxidermy meh actually, affogato fanny pack shabby chic 8-bit cupping knausgaard wolf pop-up. Plaid next level you probably haven't heard of them lumbersexual snackwave craft beer. Cardigan gluten-free plaid franzen, pork belly locavore fashion axe tumblr green juice street art prism cold-pressed fanny pack migas. Woke wolf hot chicken iceland austin. Lyft vice cray thundercats franzen marfa. Gastropub single-origin coffee paleo green juice ascot keffiyeh quinoa celiac taiyaki selvage artisan cardigan cronut pok pok tousled.
+        </p>
+        <p>
+        IPhone tofu ethical brunch kickstarter. Chillwave tumeric pinterest selfies shaman vape semiotics selvage fashion axe pitchfork keytar. Migas swag palo santo kinfolk air plant tacos, sustainable yuccie tbh vaporware. Mlkshk health goth four loko, DIY shoreditch ethical messenger bag unicorn offal scenester drinking vinegar enamel pin blackbird spyplane gastropub.
+        </p>
+        <p>
+        Mixtape hoodie direct trade, pop-up ethical mustache palo santo cliche la croix mlkshk polaroid chillwave cronut. You probably haven't heard of them keytar trust fund gorpcore etsy fashion axe, jawn same hot chicken synth. Unicorn health goth messenger bag art party organic ugh kale chips echo park. Fashion axe humblebrag neutra, pickled viral tumeric blackbird spyplane raw denim +1 williamsburg gorpcore art party VHS. Hot chicken humblebrag cloud bread, messenger bag viral kale chips pug everyday carry sartorial wolf aesthetic blog solarpunk wayfarers whatever. Normcore wayfarers neutral milk hotel everyday carry, ugh ascot narwhal coloring book meggings tumblr grailed hella fingerstache craft beer ethical.
+        </p>
+        <p>
+        Cardigan ugh gorpcore XOXO keffiyeh, tonx pabst cornhole fam tbh disrupt stumptown. Sriracha hashtag poke microdosing deep v vice sus scenester banjo pour-over distillery biodiesel echo park. Meggings small batch woke man braid. Try-hard pug kickstarter chillwave vexillologist, tbh irony kogi tumblr tofu.
+        </p>
+    </section>
+  </main>
+  <aside>
+    <h2>supplementary social media links</h2>
+    <ul>
+        <li><a href="#">instagram</a></li>
+    </ul>
+</aside>
+<footer>
+  <p>designed by me</p>
+  <address>email@colorado.edu</address>
+  <small>&copy; 2021</small>
+</footer>
 
-    </nav>
-    
-    <!--main content of the page-->
-    <main>
-        <!--scraping content together?-->
-        <section id="latin-dummy">
-            <h2>latin "dummy" text</h2>
-            <p>
-                stuff here
-            </p>
-            <!--informational images-->
-            <figure>
-                <img src="" alt="verbal description of image">
-                <figcaption>image title</figcaption>
-            </figure>
-            <!--supplementary info-->
-            <aside>
-                <h2>supplementary latin links</h2>
-                <ul>
-                    <li><a href="#"> how to learn latin</a></li>
-                </ul>
-            </aside>
-        </section>
-    </main>
-
-    <aside>
-        <h2>supplementary social media links</h2>
-        <ul>
-            <li><a href="#">twitter</a></li>
-        </ul>
-    </aside>
-
-    <footer>
-        <p>designed by me</p>
-        <address>email@colorado.edu</address>
-        <small>&copy; 2021</small>
-    </footer>
+        </div> <!--end container div-->
+    </body>
 
 
-</body>
 </html>
