@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+
 
 body{
     background: white;
@@ -23,7 +26,7 @@ p{
 h1,
 h2,
 h3{
-    font-family: "Gowun Batang", serif;
+    font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -31,14 +34,14 @@ h1{
     font-size:1.7em;
 }
 h2{
-    font-size:1.3em;
+    font-size:1.4em;
 }
 h3{
-    font-size:1.2em;
+    font-size:1.1em;
 }
 
 nav ul li{
-    list-style: none;
+    /* list-style: none; */
 }
 
 nav ul li a{
