@@ -7,13 +7,16 @@
     <link href="../css/assignment_5.css" rel="stylesheet">
 </head>
 <body>
+    
     <div class="container">
-        <div class="test">
             <a class="skip-link" href="#maincontent">Skip to main content</a>
-        </div>
+
+            <header>
+                <h1>Normal People (miniseries)</h1>
+            </header>
 
         <nav>
-            <h2 class="sr-only">Main Navigation</h2>
+            <header><h1 class="sr-only">Main Navigation</h1></header>
         <ul>
           <li class="dropdown">
             <button
@@ -31,13 +34,14 @@
           </li>
         </ul>
       </nav>
+      
+      
         
-        <header>
-            <h1>Normal People (miniseries)</h1>
-        </header>
+        
         <main id="maincontent">
+            
             <!-- grouping content together -->
-            <div id="intro">
+            <section id="intro">
                 <header> <h2> Intro </h2></header>
                 <p>
                     <strong><em>Normal People</em></strong> is a romantic psychological drama television miniseries produced by Element Pictures for <abbr title="British Broadcasting Corporation">BBC</abbr> Three and Hulu in association with Screen Ireland.[1][2][3] It is based on the 2018 novel by Sally Rooney. The series follows the relationship between Marianne Sheridan (Daisy Edgar-Jones) and Connell Waldron (Paul Mescal), as they navigate adulthood from their final days in secondary school to their undergraduate years in Trinity College. The series was primarily written by Rooney and Alice Birch and directed by Lenny Abrahamson and Hettie Macdonald.
@@ -45,10 +49,10 @@
                 <p>
                     The series was released on BBC Three in the United Kingdom on 26 April 2020, followed by weekly airings on BBC One. It premiered on RTÉ One in Ireland on 28 April 2020. In the United States, the series was released in its entirety on Hulu on 29 April 2020. The series has received <mark>critical acclaim</mark>, with praise for the performances, directing, writing, aesthetics, and its portrayal of mature content. At the 72nd Primetime Emmy Awards, the series was nominated for four awards, including Outstanding Lead Actor for Mescal and Outstanding Directing for Abrahamson.[4]
                 </p>
-            </div>
-            <div id="episodes">
-                <h2>Episodes        <span aria-hidden=”true” class="material-icons">movie</span></h2>
-                <section>
+            </section>
+            <section id="episodes">
+                <header><h2>Episodes        <span aria-hidden="true" class="material-icons">movie</span></h2></header>
+                
                     <table>
                         <thead>
                             <tr>
@@ -173,12 +177,12 @@
                         </tbody>
             
                     </table>
-                </section>
-            </div>
+                
+            </section>
 
 
-            <div id="form">
-                <h2>Form                  <span aria-hidden=”true” class="material-icons">edit_square</span></h2>
+            <section id="form">
+                <header><h2>Form                  <span aria-hidden="true" class="material-icons">edit_square</span></h2></header>
                 <form id="myform" method="post">
                     <fieldset>
                         <legend>Interested in more content? Fill out the form below to receive emails from us!</legend>
@@ -201,7 +205,7 @@
         
                         <label for="info">
                             What kind of content would you like to receive?
-                            <input type="description" id="info" placeholder="behind the scenes, etc.">
+                            <input type="text" id="info" placeholder="behind the scenes, etc.">
                         </label>
                 
                         <input type="submit" value="Submit">
@@ -210,7 +214,7 @@
         
                     </fieldset>
                 </form>
-            </div>
+            </section>
         </main>
     </div>
 

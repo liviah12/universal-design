@@ -36,7 +36,13 @@ table, th, td {
     font-size: 15px;
   }
 
-h1,
+h1{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+
+}
 h2,
 h3{
     font-family: "Merriweather", serif;
