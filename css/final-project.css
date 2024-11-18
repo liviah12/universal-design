@@ -1,0 +1,44 @@
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+nav {
+    padding: 1.5em;
+    border: 1px rgb(88, 88, 88) solid;
+    background-color: blue;
+    color: white;
+  }
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 0; /* Reset padding */
+    margin: 0;  /* Reset margin */
+}
+    
+nav ul li {
+    list-style: none;
+    padding:none;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
