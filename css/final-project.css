@@ -21,6 +21,7 @@ main{
     max-width: 800px;
     margin: 0 auto;
     margin-top: 20px;
+
 }
 
 h1,
@@ -95,4 +96,23 @@ footer p{
     white-space: nowrap;
     width: 1px;
   
+}
+
+  .skip-link {
+    background: tomato;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+    margin-top: 20px;
+  }
+  
+  .skip-link:focus {
+    transform: translateY(-100%);
+  }
+  
+  .skip-link {
+    /* Same as  before */
+    transition: transform 0.3s;
   }
