@@ -21,6 +21,9 @@ main{
     max-width: 800px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
@@ -45,6 +48,16 @@ h2{
     font-size:1.5em;
 }
 
+h3{
+  font-size: 1.2em;
+  margin-top: 40px;
+}
+
+ul{
+  font-size:18px;
+  line-height: 1.3em;
+}
+
 p{
     line-height: 1.3em;
     margin-bottom: 1.8em;
@@ -57,25 +70,9 @@ nav {
     background-color: rgb(165, 179, 228);
 
   }
-nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    padding: 0; /* Reset padding */
-    margin: 0;  /* Reset margin */
-}
-    
-nav ul li {
-    list-style: none;
-    padding:none;
-}
 
-nav a {
-    color: black;
-    font-size: 20px;
-    font-weight: 600;
 
-}
+
 
 footer{
     text-align: center;
@@ -121,3 +118,45 @@ footer p{
     /* Same as  before */
     transition: transform 0.3s;
   }
+
+nav ul{
+    flex-flow: column nowrap;
+    text-align: center;
+}
+nav ul li a {
+  display: block;
+  padding: 10px 5px;
+  margin: 5px;
+  border: 1px black solid;
+  background-color: rgba(187, 196, 228);
+  color: black;
+}
+nav ul li{
+  list-style: none;
+  padding: none;
+}
+
+@media screen and (min-width: 621px) and (max-width: 960px) {
+  
+}
+
+  @media screen and (min-width: 620px){
+    nav ul {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      padding: 0; /* Reset padding */
+      margin: 0;  /* Reset margin */
+  }
+
+  nav ul li a{
+    background-color: transparent;
+    border: none;
+  }
+  nav a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+}
