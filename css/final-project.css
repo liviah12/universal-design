@@ -13,7 +13,7 @@ body {
     font-family: "Quicksand", sans-serif;
 
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -36,7 +36,9 @@ h3{
 h1{
     font-size:2em;
     padding: 25px;
-    background-color: rgb(120, 145, 235);
+    /*background-color: rgb(120, 145, 235);*/
+    background-color: rgb(165, 179, 228);
+
 }
 
 h2{
@@ -51,7 +53,9 @@ p{
 
 nav {
     padding: 1.5em;
-    background-color: rgb(120, 145, 235);
+    /*background-color: rgb(120, 145, 235);*/
+    background-color: rgb(165, 179, 228);
+
   }
 nav ul {
     display: flex;
@@ -76,7 +80,8 @@ nav a {
 footer{
     text-align: center;
     padding: 15px;
-    background-color: rgb(120, 145, 235);
+    background-color: rgb(165, 179, 228);
+    /*background-color: rgb(120, 145, 235);*/
     font-weight: 400;
 
 }
@@ -99,7 +104,7 @@ footer p{
 }
 
   .skip-link {
-    background: tomato;
+    background: black;
     color: #fff;
     font-weight: 700;
     padding: 4px;

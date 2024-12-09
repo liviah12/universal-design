@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Young+Serif&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+
+}
+.header{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "header nav"
+
+}
 main{
     margin-top: 50px;
 }
@@ -8,30 +25,46 @@ main{
     margin: auto;
 }
 
+#lab-links{
+    text-align: right;
+}
 nav ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    padding: 0; /* Reset padding */
-    margin: 0;  /* Reset margin */
+    padding: 0; 
+    margin: 0; 
     }
     
     nav ul li {
       list-style: none;
       padding:none;
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
     }
 
 
     .container{
-        max-width: 800px;
+        max-width: 1000px;
         margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     h1{
-        font-size:1.7em;
         text-align: center;
+        margin: 0;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 28px;
+        text-align: left;
     }
     h2{
-        font-size:1.4em;
+        font-size:25px;
         text-align: center;
     }
     h3{
@@ -41,15 +74,17 @@ nav ul {
     }
     p{
         line-height: 1.3em;
+        font-size: 18px;
     }
 
     .about-me {
         margin-top: 20px;
+        margin-bottom: 30px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        
+        grid-template-columns: 1.25fr 0.75fr;
         grid-template-areas:
             "header header"
-            "nav nav"
             "aside1 aside2";
     }
     
@@ -57,9 +92,7 @@ nav ul {
         grid-area: header;
     }
     
-    nav {
-        grid-area: nav;
-    }
+
     
 
     
@@ -73,14 +106,10 @@ nav ul {
     }
     
     #aside2 .img {
-        max-width: 90%;
+        max-width: 100%;
         display: block;
     }
     
-
-    a{
-        color:blueviolet;
-    }
 
 
     .sr-only {
@@ -96,31 +125,59 @@ nav ul {
       
       }
 
+.skip-link {
+    background: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+      
+.skip-link:focus {
+    transform: translateY(-100%);
+}
+      
+.skip-link {
+    transition: transform 0.3s;
+}
 
-      @media screen
+
+@media screen
   and (max-width: 640px)  {
 .about-me {
 grid-template-columns:
    1fr;
 grid-template-areas:
   "header"
-  "nav"
   "aside1"
   "aside2";
 
 }
-main nav ul {
-  flex-flow: column nowrap;
-  text-align: center;
+.header{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+            "header" 
+            "nav";
 }
-main nav ul li a {
+.header h1{
+    text-align: center;
+}
+
+.header nav ul{
+    flex-flow: column nowrap;
+    text-align: center;
+}
+.header nav ul li a {
   display: block;
   padding: 10px 5px;
   margin: 5px;
   border: 1px black solid;
   background: #d3d2ff;
   color: black;
+}
+}
 
-}
-}
 
